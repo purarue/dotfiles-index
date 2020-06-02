@@ -1,0 +1,64 @@
+.lightTextheading {
+  color: #4ecca3;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list_basename {
+  font-size: 125%;
+  color: #46ccc6;
+}
+
+.listItem {
+  margin-bottom: 0.5rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.code {
+  font-family: Courier;
+  font-size: 10pt;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.codewrap {
+  overflow-x: scroll;
+  background-color: #393e46;
+  color: white;
+}
+
+.splitHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.closeHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
