@@ -3,7 +3,9 @@
 THIS_DIR="$(dirname "${BASH_SOURCE[0]}")"
 DOTFILES_DIR="${THIS_DIR}/dotfiles"
 
-FROM_GIT_URL="${1:?'Pass the git url to clone from as the first argument'}"
+[ -d "$DOTFILES_DIR" ] || { 
+  FROM_GIT_URL="${1:?'Pass the git url to clone from as the first argument'}"
+}
 
 if [ -d "$DOTFILES_DIR" ]; then
   cd "$DOTFILES_DIR" || exit 1
