@@ -1,5 +1,9 @@
 A static site generator which displays blob/raw (similar to github) pages for my scripts/configuration files from my dotfiles.
 
+<img src="https://raw.githubusercontent.com/seanbreckenridge/dotfiles-index/master/.images/home.png" height=400>
+
+<img src="https://raw.githubusercontent.com/seanbreckenridge/dotfiles-index/master/.images/blob.png" height=400>
+
 This doesn't update automatically, you have to rebuild the entire site to update it; with `rebuild.sh`.
 
 To configure which files are served, and some other options, edit `config.tsx`.
