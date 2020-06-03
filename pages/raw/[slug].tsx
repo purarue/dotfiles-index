@@ -1,9 +1,9 @@
-import Layout from "../../components/layout";
 import Head from "next/head";
+const escape = require("escape-html");
+
 import utilStyles from "../../styles/utils.module.css";
 import { getPathInfo, getAllSlugs } from "../../lib/pathInfo";
 import { config } from "../../config";
-const escape = require("escape-html");
 
 export default function Path({ pathData }) {
   const divStyle = {

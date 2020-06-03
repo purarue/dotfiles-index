@@ -42,10 +42,10 @@ export default function Path({ pathData }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllSlugs().map((slug) => {
+  const paths = getAllSlugs().map((urlslug) => {
     return {
       params: {
-        slug: slug,
+        slug: urlslug,
       },
     };
   });

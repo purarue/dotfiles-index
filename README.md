@@ -11,4 +11,3 @@ If you'd like to use this, run:
 ```sh
 ./rebuild.sh <your_dotfiles_repo_url>
 ```
-
