@@ -4,7 +4,7 @@ A static site generator which displays blob/raw (similar to github) pages for my
 
 <img src="https://raw.githubusercontent.com/seanbreckenridge/dotfiles-index/master/.images/blob.png" height=400>
 
-This doesn't update automatically, you have to rebuild the entire site to update it; with `rebuild.sh`.
+This doesn't update automatically, you have to rebuild the entire site to update it; with `rebuild`.
 
 To configure which files are served, and some other options, edit `config.tsx`.
 
@@ -16,7 +16,7 @@ On its own, this site works fine, though when I first wrote this, I expected to 
 If you'd like to use this, run:
 
 ```sh
-./rebuild.sh <your_dotfiles_repo_url>
+./rebuild <your_dotfiles_repo_url>
 ```
 
 I should note that the `raw` pages aren't really raw, I dont want to blind myself looking at a white background, so they're still rendered `next.js` pages. One could always use something like `lynx`/`w3m` to get the text from the page:
