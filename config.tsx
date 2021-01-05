@@ -21,7 +21,7 @@ export const config = {
   // username used across the site
   name: "sean",
   // somewhere where the entire dotfiles repo is hosted
-  externalGitDir: "https://gitlab.com/seanbreckenridge/dotfiles",
+  externalGitDir: "https://github.com/seanbreckenridge/dotfiles",
 };
 
 export const siteTitle = `dotfiles index [${config.name}]`;
