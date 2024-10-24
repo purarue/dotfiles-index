@@ -19,9 +19,9 @@ export const config = {
   // remove this from the beginning of the path when displaying on the website
   removePrefix: "dotfiles/",
   // username used across the site
-  name: "sean",
+  name: "purarue",
   // somewhere where the entire dotfiles repo is hosted
-  externalGitDir: "https://github.com/seanbreckenridge/dotfiles",
+  externalGitDir: "https://github.com/purarue/dotfiles",
 };
 
 export const siteTitle = `dotfiles index [${config.name}]`;
